@@ -18,5 +18,5 @@ range(起始值,終止值,增減值)
 例2
 
 for x in range(1,10):
-  print (x)
+  print ("x")
 ```
