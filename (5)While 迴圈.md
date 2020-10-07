@@ -1,5 +1,5 @@
 
- #何時會用到迴圈?
+ # 何時會用到迴圈?
 ```
 印出下列圖形
 $$$$$$$$$$$
@@ -15,7 +15,7 @@ for x in range(1,101):
   print(str(x)+"$$$$$$$$$$$")
 ```
   
- #While 迴圈
+ # While 迴圈
  ```
 while 條件判斷式:
 #如果條件判斷式成立，就執行這裡面的敘述
@@ -30,7 +30,7 @@ print("abc")
 ```
 
 
-#for迴圈
+# for迴圈
 ```
 for 變數 in 序列項目：
   執行敘述
@@ -40,9 +40,17 @@ range(起始值,終止值,增減值)
 
 for x in range(1,10):
   print ("x")
+ # 練習1
+ 如何讓上下都有1-10???
+  for x in range(1,10):
+  print(x,end="")
+for y in range(1,10):
+  print(y)
+for c in range(1,10):
+  print(c,end="")
 ```
 
-#巢狀迴圈
+# 巢狀迴圈
 ```
 k =1
 h = 1
