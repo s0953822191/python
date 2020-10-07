@@ -20,9 +20,7 @@ for x in range(1,100):
  
 while 條件判斷式:
 #如果條件判斷式成立，就執行這裡面的敘述
-```
 
-```
 i=1
 while i < 3:
   print(i)
