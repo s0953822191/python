@@ -1,3 +1,6 @@
+
+for x in range(1,100):
+  print(str(x)+"$$$$$$$$$$$")
 ```
 While 迴圈
 while 條件判斷式:
