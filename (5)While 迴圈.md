@@ -11,7 +11,7 @@ print("$$$$$$$$$$$")
 print("$$$$$$$$$$$")
 
 如果印100行呢?
-for x in range(1,100):
+for x in range(1,101):
   print(str(x)+"$$$$$$$$$$$")
 ```
   
