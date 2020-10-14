@@ -42,6 +42,7 @@ for x in range(1,10):
   print ("x")
  # 練習1
  如何讓上下都有1-10???
+           
 for x in range(1,10):
   print(x,end="")
   
