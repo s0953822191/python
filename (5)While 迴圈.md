@@ -44,12 +44,8 @@ for x in range(1,10):
  如何讓上下都有1-10???
            
 for x in range(1,10):
-  print(x,end="")
-print("")
-for x in range(1,10):
-  print(x)
-for x in range(1,10):
-  print(x,end="")
+  print("")
+ 
 ``` 
 
 # 巢狀迴圈
@@ -65,4 +61,15 @@ while k <6 :
   print()
  問: 為甚魔少H不能有12345,而有H卻可一???
  A:因為上面一迴圈6次當H出現他就成為1次而已
+```
+```
+
+for X in range(10,1 -1):
+ for y in range(1,x):
+  print("*",end="")
+print("")
+
+
+
+
 ```
