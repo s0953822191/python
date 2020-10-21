@@ -143,6 +143,7 @@ for k in range(1,5):
   for h in range(1,6):
     print("*",end="")
   print("")
+  
   ###
   不同樹
   for x in range(1,20,2):
