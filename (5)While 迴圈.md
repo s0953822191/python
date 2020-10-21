@@ -64,8 +64,7 @@ while k <6 :
 ```
  # 小題目
 ```
-EX1:
-Ex01 
+EX1: 
 **********
 **********
 **********
@@ -96,6 +95,7 @@ for x in range(1,10):
   for z in range(1,x):
     print("*",end="")
   print("")
+
 EX3:
 *
 **
@@ -108,6 +108,7 @@ EX3:
 **
 *
 答案
+
 Ex4
          *
         **
@@ -119,5 +120,44 @@ Ex4
   ********
  *********
 **********
+答案
+for x in range(1,10):
+  for y in range(9,x,-1):
+    print(" ",end="")
+  for z in range(0,x):
+    print("*",end="")
+  print("")
+```
 
+# 聖誕樹
+```
+for x in range(1,20,2):
+  for y in range(19,x,-2):
+    print(" ",end="")
+  for z in range(0,x):
+    print("*",end="")
+  print("")
+
+for k in range(1,5):
+  print("       ",end="")
+  for h in range(1,6):
+    print("*",end="")
+  print("")
+  ###
+  不同樹
+  for x in range(1,20,2):
+  for y in range(19,x,-2):
+    print(" ",end="")
+  for z in range(0,x):
+    print("*",end="")
+  print("")
+
+for k in range(1,5):
+  print("       ",end="")
+  for h in range(1,6):
+    print("*",end="")
+  print("")
+for l in range(1,5):
+    print("     *********",end="")
+    print(""
 ```
