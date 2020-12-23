@@ -136,7 +136,7 @@ button.pack()
 window.mainloop()
 ```
 今天我們學了python他有分兩種1.單一 2.多分解,因為我們要去了解python,我們使用的是第2種,我們上網找python視窗程式設計教學,以上是我們學到的東西,我們還玩了顏色的色碼表#BBFFFF他是淺藍色,我喜歡的顏色!
-# 計算器(體重M身高)
+# 計算器(身高M體重)
 ```
 import tkinter as tk
 import math
