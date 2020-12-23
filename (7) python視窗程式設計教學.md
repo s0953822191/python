@@ -136,3 +136,60 @@ button.pack()
 window.mainloop()
 ```
 今天我們學了python他有分兩種1.單一 2.多分解,因為我們要去了解python,我們使用的是第2種,我們上網找python視窗程式設計教學,以上是我們學到的東西,我們還玩了顏色的色碼表#BBFFFF他是淺藍色,我喜歡的顏色!
+# 計算器(體重M身高)
+```
+import tkinter as tk
+import math
+
+window = tk.Tk()
+window.title('BMI App')
+window.geometry('480x360')
+window.configure(background='#66FFFF')   #淺色藍
+
+def calculate_bmi_number():
+    height = float(height_entry.get())/100     #/=除100,因為他是公尺,需除100
+    weight = float(weight_entry.get())
+    bmi_value = round(weight / math.pow(height, 2), 2)
+    result = '你的 BMI 指數為：{} {}'.format(bmi_value, get_bmi_status_description(bmi_value))
+    result_label.configure(text=result)
+
+def get_bmi_status_description(bmi_value):
+    if bmi_value < 18.5:
+        return '體重過輕囉，多吃點！'
+    elif bmi_value >= 18.5 and bmi_value < 24:
+        return '體重剛剛好，繼續保持！'
+    elif bmi_value >= 24 :
+        return '體重有點過重囉，少吃多運動！'
+
+header_label = tk.Label(window, text='BMI 計算器')
+header_label.pack()
+
+height_frame = tk.Frame(window)
+height_frame.pack(side=tk.TOP)
+height_label = tk.Label(height_frame, text='身高（m）')
+height_label.pack(side=tk.LEFT)
+height_entry = tk.Entry(height_frame)
+height_entry.pack(side=tk.LEFT)
+
+weight_frame = tk.Frame(window)
+weight_frame.pack(side=tk.TOP)
+weight_label = tk.Label(weight_frame, text='體重（kg）')
+weight_label.pack(side=tk.LEFT)
+weight_entry = tk.Entry(weight_frame)
+weight_entry.pack(side=tk.LEFT)
+
+result_label = tk.Label(window)
+result_label.pack()
+
+calculate_btn = tk.Button(window, text='馬上計算', command=calculate_bmi_number)
+calculate_btn.pack()
+
+window.mainloop()
+
+我的身高173,體重56,他能計算我們體重是否剛好,還是過重或是過輕,我是剛好耶!!!!!
+而#66FFFF他能改變後面的顏色,上面有打說是淺色藍!!!!喜歡~~~~
+```
+
+
+
+
