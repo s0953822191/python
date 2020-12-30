@@ -192,3 +192,5 @@ window.mainloop()
 # 包裝
 ```
 左下有一個開始,按右鍵找到職行(R),因為要下在所以打上pip install pyinstaller按Enter,但上面那些
+需要下載到桌面，所以先打開Python把上面計算體重的東西複製下來，執行、在建立一個檔案名字隨便，放到桌上
+
