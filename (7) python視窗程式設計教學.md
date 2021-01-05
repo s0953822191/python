@@ -194,3 +194,4 @@ window.mainloop()
 左下有一個開始,按右鍵找到職行(R),打上cmd,因為要下在所以打上pip install pyinstaller按Enter,但上面那
 些需要下載到桌面，所以先打開Python把上面計算體重的東西複製下來，執行、在建立一個檔案名字隨便，放到桌
 上在回去把這個打上pyinstaller -F ./hello.py 進去資料夾裡找上面顯示的檔案biet找,就完成了
+```
